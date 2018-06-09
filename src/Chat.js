@@ -105,7 +105,7 @@ export class Chat extends Component {
     render() {
 
         if (this.state.projectId){
-            (
+            return (
                 <div className="App">
                 <section name="chat" className="chatContainer">
                 <div className='container'>
