@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.chatInput {
+}
+
+.dashInput {
+  margin: 10px;
+  line-height: 36px;
+  width: 90%;
+}
+
+.startButton {
+  color: white;
+  background-color: #2980b9;
+  width: 90%;
+  padding: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 769px) {
+  .chatContainer {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
