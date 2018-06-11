@@ -1,0 +1,7 @@
+frontend:
+    build: .
+    networks:
+      - web
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
